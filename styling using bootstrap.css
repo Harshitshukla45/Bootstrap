@@ -1,0 +1,61 @@
+body{
+  font-family: 'Montserrat',sans-serif;;
+}
+
+/* section-title */
+
+#title{
+  background-color: #ff4c68;
+  color: white;
+}
+h1{
+  font-family: 'Montserrat-Black',sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding:3% 5%;
+}
+
+.btn-1{
+  margin:5% 3% 5% 0;
+}
+
+.title-imge{
+  width:50%;
+  transform: rotate(25deg);
+}
+
+/* Navigation Bar */
+.navbar-brand{
+  font-size: 2.5rem;
+  /* font-weight: bold; */
+}
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.nav-item{
+  padding:0 18px;
+}
+
+/* section-feautres */
+
+.feat-headings{
+  font-family: 'Montserrat-Bold',sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.feat-items{
+  padding: 7rem 10rem;
+}
+p{
+  color: #8f8f8f;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.col-lg-4{
+  text-align: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
