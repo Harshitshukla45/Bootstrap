@@ -1,0 +1,60 @@
+#title{
+  background-color: #ff4c68;
+  color: white;
+}
+h1{
+  font-family: 'Montserrat-Black',sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding:3% 5%;
+}
+
+.btn-1{
+  margin:5% 3% 5% 0;
+}
+
+.title-imge{
+  width:23%;
+  transform: rotate(25deg);
+  position: absolute;
+
+}
+
+/* Navigation Bar */
+
+.navbar-brand{
+  font-size: 2.5rem;
+}
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.nav-item{
+  padding:0 18px;
+}
+
+/* section-feautres */
+
+#features{
+  position: relative;
+  background-color: white;
+  /*z-index: 1;*/
+}
+@media (max-width:992.15px) {
+  .title-imge{
+    position:static;
+    transform: rotate(0);
+    width: 25%
+  }
+  #title{
+    text-align: center;
+  }
+  /* #features{
+    position: static;
+    z-index: 0; */
+
+  }
+
+}
